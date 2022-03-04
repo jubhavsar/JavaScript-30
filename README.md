@@ -14,3 +14,16 @@ It's a fun playing game when hit corresponding key. It does two things
 -- playing audio
 -- Listening for transition-end events
 -- Listening for animation-end events
+
+
+### 02-JS_CSS-Clock -------------------
+It's a CSS clock with time functionality.
+1. getHour
+2. getMinutes
+3. getSeconds
+
+
+## Learning goals(02): 
+-- Transform property applied movement and rotation in CSS
+-- Transition property seamlessly & gently transitions
+   the element from one state to another.
