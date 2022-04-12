@@ -57,7 +57,11 @@
       };
     }
 
-  </script>
+    const sliderImages = document.querySelectorAll('.slide-in');
+    function checkSlide() {
+    }
+    window.addEventListener('scroll', debounce(checkSlide));
+  </script> 
   <style>
     html {
       box-sizing: border-box;
