@@ -31,7 +31,15 @@
   const items = [];
 
   function addItem(e) {
-    console.log("Hello");
+    e.preventDefault();
+    const text = (this.querySelector('[name=item]')).value;
+    const item = {
+      text,
+      done: false
+    };
+
+    items.push(item);
+    this.reset();
   }
   addItems.addEventListener('submit', addItem);
 
